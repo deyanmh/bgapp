@@ -6,7 +6,7 @@ services:
         ports:
             - 8080:80
         volumes:
-            - "/home/vagrant/mybgapp/web:/var/www/html:ro"
+            - "/home/vagrant/bgapp/web:/var/www/html:ro"
         networks:
             - app-network
         depends_on:
